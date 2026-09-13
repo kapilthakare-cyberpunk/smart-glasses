@@ -1,0 +1,31 @@
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Badge background -->
+  <circle cx="70" cy="70" r="60" fill="#FFFFFF"/>
+  <circle cx="70" cy="70" r="59.5" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Meta AI ring: blue circular outline with gap at top -->
+  <!-- circumference = 2*pi*22 ≈ 138.2, draw 100, gap 38 -->
+  <!-- rotate(-90) puts start at top, gap appears centered near top -->
+  <circle cx="70" cy="70" r="22" fill="none"
+          stroke="url(#aiGradient)"
+          stroke-width="7"
+          stroke-linecap="round"
+          stroke-dasharray="100 38"
+          transform="rotate(-90 70 70)"/>
+
+  <!-- Gradient for Meta AI ring -->
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0080FF"/>
+      <stop offset="50%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#0080FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Center dot -->
+  <circle cx="70" cy="70" r="4" fill="#0080FF"/>
+
+  <!-- "AI" text (very small, inside ring) -->
+  <text x="70" y="74" font-family="Arial, sans-serif" font-size="11" font-weight="bold"
+        fill="#0080FF" text-anchor="middle">AI</text>
+</svg>

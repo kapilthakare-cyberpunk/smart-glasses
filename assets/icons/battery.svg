@@ -1,0 +1,25 @@
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Badge background -->
+  <circle cx="70" cy="70" r="60" fill="#FFFFFF"/>
+  <circle cx="70" cy="70" r="59.5" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Battery body (outline) -->
+  <rect x="38" y="46" width="44" height="24" rx="5"
+        fill="none" stroke="#1F2937" stroke-width="2"/>
+
+  <!-- Battery terminal -->
+  <rect x="82" y="50" width="6" height="16" rx="2"
+        fill="#1F2937"/>
+
+  <!-- Power level fill (85%) -->
+  <rect x="40" y="48" width="28" height="20" rx="3"
+        fill="#0080FF"/>
+
+  <!-- Charging lightning bolt -->
+  <path d="M60 48 L56 58 L63 58 L59 66 L66 56 L61 56 Z"
+        fill="#E44050"/>
+
+  <!-- Percentage text -->
+  <text x="73" y="61" font-family="Arial, sans-serif" font-size="10" font-weight="bold"
+        fill="#1F2937">85%</text>
+</svg>
